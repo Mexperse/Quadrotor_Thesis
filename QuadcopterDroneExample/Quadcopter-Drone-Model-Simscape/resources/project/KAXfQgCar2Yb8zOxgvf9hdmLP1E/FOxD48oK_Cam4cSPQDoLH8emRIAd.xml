@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info File="Scripts_Data/startup_quadcopter_drone.m" GroupUUID="default" Icon="" Name="startup_my_project" Type="StartUp" Visible="0">
+    <Extension Name="StartUpPrev" Value="HEAD"/>
+</Info>

@@ -1,0 +1,137 @@
+%% PID Extraction
+xref = -2;
+yref = -2;
+zref = 10;
+rollref = 0;
+pitchref = 0;
+yawref = 0;
+
+x_pidval = pidxerror.Data;
+esspidx = mean(x_pidval(end-99,end))
+
+y_pidval = pidyerror.Data;
+esspidy = mean(y_pidval(end-99:end))
+
+z_pidval = pidzerror.Data;
+esspidz = mean(z_pidval(end-99:end))
+
+roll_pidval = pidrollerror.Data;
+esspidroll = mean(roll_pidval(end-99:end))
+
+pitch_pidval = pidpitcherror.Data;
+esspidpitch = mean(pitch_pidval(end-99:end))
+
+yaw_pidval = pidyawerror.Data;
+esspidyaw = mean(yaw_pidval(end-99:end))
+
+tpid_x = pidx.time;
+ypid_x = pidx.signals.values(:,2);
+ctrlvalues_pidx = stepinfo(ypid_x,tpid_x);
+rmse_val_pidx = rmse(pidx.signals.values(:,1), pidx.signals.values(:,2));
+
+tpid_y = pidy.time;
+ypid_y = pidy.signals.values(:,2);
+ctrlvalues_pidy = stepinfo(ypid_y,tpid_y);
+rmse_val_pidy = rmse(pidy.signals.values(:,1), pidy.signals.values(:,2));
+
+tpid_z = pidz.time;
+ypid_z = pidz.signals.values(:,2);
+ctrlvalues_pidz = stepinfo(ypid_z,tpid_z);
+rmse_val_pidz = rmse(pidz.signals.values(:,1), pidz.signals.values(:,2));
+
+tpid_roll = pidroll.time;
+ypid_roll = pidroll.signals.values(:,2);
+ctrlvalues_pidroll = stepinfo(ypid_roll,tpid_roll);
+rmse_val_pidroll = rmse(pidroll.signals.values(:,1), pidroll.signals.values(:,2));
+
+tpid_pitch = pidpitch.time;
+ypid_pitch = pidpitch.signals.values(:,2);
+ctrlvalues_pidpitch = stepinfo(ypid_pitch,tpid_pitch);
+rmse_val_pidpitch = rmse(pidpitch.signals.values(:,1), pidpitch.signals.values(:,2));
+
+tpid_yaw = pidyaw.time;
+ypid_yaw = pidyaw.signals.values(:,2);
+ctrlvalues_pidyaw = stepinfo(ypid_yaw,tpid_yaw);
+rmse_val_pidyaw = rmse(pidyaw.signals.values(:,1), pidyaw.signals.values(:,2));
+
+t_uroll = inputU.time;
+uroll = inputU.signals(1).values(:,:);
+inputvaluesroll = stepinfo(uroll,t_uroll);
+
+t_upitch = inputU.time;
+upitch = inputU.signals(2).values(:,:);
+inputvaluespitch = stepinfo(upitch,t_upitch);
+
+t_uyaw = inputU.time;
+uyaw = inputU.signals(3).values(:,:);
+inputvaluesyaw = stepinfo(uyaw,t_uyaw);
+
+t_uthrust = inputU.time;
+uthrust = inputU.signals(4).values(:,:);
+inputvaluesthrust = stepinfo(uthrust,t_uthrust);
+
+rmse_pid_total = [
+    rmse_val_pidx;
+    rmse_val_pidy;
+    rmse_val_pidz;
+    rmse_val_pidroll;
+    rmse_val_pidpitch;
+    rmse_val_pidyaw];
+
+%% LQR Extraction
+
+x_lqrval = lqrxerror.Data;
+esslqrx = mean(x_lqrval(end-99,end))
+
+y_lqrval = lqryerror.Data;
+esslqry = mean(y_lqrval(end-99:end))
+
+z_lqrval = lqrzerror.Data;
+esslqrz = mean(z_lqrval(end-99:end))
+
+roll_lqrval = lqrrollerror.Data;
+esslqrroll = mean(roll_lqrval(end-99:end))
+
+pitch_lqrval = lqrpitcherror.Data;
+esslqrpitch = mean(pitch_lqrval(end-99:end))
+
+yaw_lqrval = lqryawerror.Data;
+esslqryaw = mean(yaw_lqrval(end-99:end))
+
+tlqr_x = lqrx.time;
+ylqr_x = lqrx.signals.values(:,2);
+ctrlvalues_lqrx = stepinfo(ylqr_x,tlqr_x);
+rmse_val_lqrx = rmse(lqrx.signals.values(:,1), lqrx.signals.values(:,2));
+
+tlqr_y = lqry.time;
+ylqr_y = lqry.signals.values(:,2);
+ctrlvalues_lqry = stepinfo(ylqr_y,tlqr_y);
+rmse_val_lqry = rmse(lqry.signals.values(:,1), lqry.signals.values(:,2));
+
+tlqr_z = lqrz.time;
+ylqr_z = lqrz.signals.values(:,2);
+ctrlvalues_lqrz = stepinfo(ylqr_z,tlqr_z);
+rmse_val_lqrz = rmse(lqrz.signals.values(:,1), lqrz.signals.values(:,2));
+
+tlqr_roll = lqrroll.time;
+ylqr_roll = lqrroll.signals.values(:,2);
+ctrlvalues_lqrroll = stepinfo(ylqr_roll,tlqr_roll);
+rmse_val_lqrroll = rmse(lqrroll.signals.values(:,1), lqrroll.signals.values(:,2));
+
+tlqr_pitch = lqrpitch.time;
+ylqr_pitch = lqrpitch.signals.values(:,2);
+ctrlvalues_lqrpitch = stepinfo(ylqr_pitch,tlqr_pitch);
+rmse_val_lqrpitch = rmse(lqrpitch.signals.values(:,1), lqrpitch.signals.values(:,2));
+
+tlqr_yaw = lqryaw.time;
+ylqr_yaw = lqryaw.signals.values(:,2);
+ctrlvalues_lqryaw = stepinfo(ylqr_yaw,tlqr_yaw);
+rmse_val_lqryaw = rmse(lqryaw.signals.values(:,1), lqryaw.signals.values(:,2));
+
+rmse_lqr_total = [
+    rmse_val_lqrx;
+    rmse_val_lqry;
+    rmse_val_lqrz;
+    rmse_val_lqrroll;
+    rmse_val_lqrpitch;
+    rmse_val_lqryaw];
