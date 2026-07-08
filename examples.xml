@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<demos>
+  <demoitem>
+    <source type="m">ElectroHydraulicLimitedSlipDifferentialExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/ElectroHydraulicLimitedSlipDifferentialExample.html</file>
+    <metadata>ex11475112</metadata>
+    <thumbnail>html/ElectroHydraulicLimitedSlipDifferentialExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <hideCode/>
+    <product>matlab</product>
+    <product>sdl</product>
+    <product>simscapefluids</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <file component="simscape_shared" open="open" timestamp="1601984465">sscv_electrohydro_lim_slip_diff.slx</file>
+    <file component="simscape_shared" timestamp="1594742653">sscv_electrohydro_lim_slip_diff_plotCharacteristics.m</file>
+    <file component="simscape_shared" timestamp="1594742653">sscv_pressure_control_solenoid.png</file>
+    <file component="simscape_shared" timestamp="1601984465">sscv_electrohydro_lim_slip_diff_Engine_Torque.mat</file>
+  </demoitem>
+  <demoitem>
+    <source type="livem">WashingMachineFaultAnalysisExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <metadata>ex24025498</metadata>
+    <thumbnail>html/WashingMachineFaultAnalysisExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simscape</product>
+    <product>simulink</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>simscapefluids</product>
+    <file component="simscape_shared" open="open" timestamp="1704988478">sscv_washing_machine_fault_analysis.slx</file>
+    <file component="simscape_shared" timestamp="1618874140">sscv_washing_machine_fault_analysis_ini.m</file>
+    <file component="simscape_shared" timestamp="1618874140">sscv_washing_machine_fault_analysis_plotResults.m</file>
+    <file component="simscape_shared" timestamp="1704988478">sscv_washing_machine_fault_analysis_FaultModel.slx</file>
+    <file component="simscape_shared" timestamp="1704988478">sscv_washing_machine_fault_analysis_faultInfo.xml</file>
+  </demoitem>
+  <demoitem>
+    <source type="m">CraneBoomArmTestBenchExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/CraneBoomArmTestBenchExample.html</file>
+    <metadata>ex25636446</metadata>
+    <thumbnail>html/CraneBoomArmTestBenchExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapefluids</product>
+    <product>simscapemultibody</product>
+    <file component="simscape_shared" open="open" timestamp="1738248864">sscv_boom_arm_test_bench.slx</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_actuator.html</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_actuator.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_actuator_schematic.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_boom_arm.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_boomarmbar.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_bracket.html</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_bracket.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_bracket1.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_bracket_schematic.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_counterbalanceflow.m</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_cylinderpressure.m</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_input.m</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_pulley.m</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_pulley.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_singlebracket.html</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_singlebracket_schematic.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_base.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_baseplate.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_pillar.png</file>
+    <file component="simscape_shared" timestamp="1659536636">sscv_boom_arm_test_bench_pullyweight.png</file>
+  </demoitem>
+  <demoitem>
+    <source type="m">AntiLockBrakingSystemABSExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/AntiLockBrakingSystemABSExample.html</file>
+    <metadata>ex29019210</metadata>
+    <thumbnail>html/AntiLockBrakingSystemABSExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <hideCode/>
+    <product>matlab</product>
+    <product>sdl</product>
+    <product>simscapefluids</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>stateflow</product>
+    <file component="simscape_shared" open="open" timestamp="1703255507">sscv_braking_ABS_w_vehicle.slx</file>
+    <file component="simscape_shared" timestamp="1710497237">sscv_braking_ABS_w_vehicle_data.m</file>
+    <file component="simscape_shared" timestamp="1570188446">sscv_braking_ABS_w_vehicle_input.m</file>
+    <file component="simscape_shared" timestamp="1681908380">sscv_braking_ABS_w_vehicle_plotVchar.m</file>
+    <file component="simscape_shared" timestamp="1570188446">sscv_braking_caliper_disk_brake.png</file>
+    <file component="simscape_shared" timestamp="1570188446">sscv_braking_tandem_primary_cylinder.png</file>
+    <file component="simscape_shared" timestamp="1570188446">sscv_braking_vacuum_booster.png</file>
+    <file component="simscape_shared" timestamp="1703255507">AntiLockBrakingSystemABSExample.m</file>
+    <file component="simscape_shared" timestamp="1645529831">sscv_braking_ABS_w_vehicle_IceMu.mat</file>
+  </demoitem>
+  <demoitem>
+    <source type="m">WindTurbineExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/WindTurbineExample.html</file>
+    <metadata>ex30648463</metadata>
+    <thumbnail>html/WindTurbineExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simscape</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>simulink</product>
+    <product>stateflow</product>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine_Cp.mat</file>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine_Derating.mat</file>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine_MPPT.mat</file>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine.PNG</file>
+    <file component="simscape_shared" open="open" timestamp="1709549843">sscv_wind_turbine.slx</file>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine.svg</file>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine_input.m</file>
+    <file component="simscape_shared" timestamp="1634383486">sscv_wind_turbine_plotResponse.m</file>
+    <file component="simscape_shared" timestamp="1634569576">sscv_wind_turbine_grid_model.png</file>
+  </demoitem>
+  <demoitem>
+    <source type="livem">AnalyzeBatterySpatialTemperatureDuringFastChargeExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex38232708</metadata>
+    <thumbnail>html/AnalyzeBatterySpatialTemperatureDuringFastChargeExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapebattery</product>
+    <product>simscapeelectrical</product>
+    <product>pde</product>
+    <file component="simscape_shared" timestamp="1766478276">sscv_BattSpatialTempVar.slx</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG00.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG01.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG02.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG03.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG04.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG05.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_IMG06.png</file>
+    <file component="simscape_shared" timestamp="1670934065">sscv_BatteryCellSpatialTempVariation_icon.png</file>
+    <file component="simscape_shared" timestamp="1734000840">sscv_BatteryCellSpatialTempVariation_rom.mat</file>
+    <file component="simscape_shared" timestamp="1734000840" type="livem">sscv_setupROMmodelForSimscape.m</file>
+    <file component="simscape_shared" timestamp="1731062271">sscv_unitHeatLoadBatteryROM.m</file>
+    <dir component="simscape_shared" timestamp="1745922036">+sscv_BatteryCellSpatialTempROM</dir>
+  </demoitem>
+  <demoitem>
+    <source type="livem">DesignOperateControlRemoteMicrogridExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex40200072</metadata>
+    <thumbnail>html/DesignOperateControlRemoteMicrogridExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">CylinderLinearizationExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <metadata>ex40728739</metadata>
+    <thumbnail>html/CylinderLinearizationExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>simscape</product>
+    <product>simscapefluids</product>
+    <product>simulink</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <product>ident</product>
+    <file component="simscape_shared" open="open" timestamp="1729781985">sscv_cylinder_linearization.slx</file>
+    <file component="simscape_shared" timestamp="1729781985">sscv_cylinder_linearization_input.m</file>
+    <file component="simscape_shared" timestamp="1729781985">sscv_cylinder_linearization_response.m</file>
+    <file component="simscape_shared" timestamp="1729781985">sscv_cylinder_linearization.png</file>
+  </demoitem>
+  <demoitem>
+    <source type="m">HydraulicClutchSystemExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/HydraulicClutchSystemExample.html</file>
+    <metadata>ex46327026</metadata>
+    <thumbnail>html/HydraulicClutchSystemExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simscape</product>
+    <product>sdl</product>
+    <product>simscapefluids</product>
+    <product>simulink</product>
+    <file component="simscape_shared" timestamp="1585937772">HydraulicClutchSystemExample.m</file>
+    <file component="simscape_shared" timestamp="1585937772">sscv_clutch_secondary_cyl.png</file>
+    <file component="simscape_shared" timestamp="1585937772">sscv_clutch_ss_primary_cyl.png</file>
+    <file component="simscape_shared" open="open" timestamp="1593432134">sscv_hydraulic_clutch_system.slx</file>
+    <file component="simscape_shared" timestamp="1585937772">sscv_hydraulic_clutch_system_data1.m</file>
+    <file component="simscape_shared" timestamp="1585937772">sscv_hydraulic_clutch_system_data2.m</file>
+    <file component="simscape_shared" timestamp="1585937772">sscv_hydraulic_clutch_system_data3.m</file>
+    <file component="simscape_shared" timestamp="1593432134">sscv_hydraulic_clutch_system_plotCharacteristics.m</file>
+  </demoitem>
+  <demoitem>
+    <source type="livem">EvaluatePerformanceOfGridFormingBESSInPVPlantsExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex53595279</metadata>
+    <thumbnail>html/EvaluatePerformanceOfGridFormingBESSInPVPlantsExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+  </demoitem>
+  <demoitem>
+    <source type="m">FullWaveBridgeRectifierForSimscapeHDLAdvisorExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/FullWaveBridgeRectifierForSimscapeHDLAdvisorExample.html</file>
+    <metadata>ex59914993</metadata>
+    <thumbnail>html/FullWaveBridgeRectifierForSimscapeHDLAdvisorExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <file component="simscape_shared" open="open" timestamp="1756465843">FullWaveBridgeRectifierForSimscapeHDLAdvisor.slx</file>
+    <workFolder>RectifierHDL</workFolder>
+  </demoitem>
+  <demoitem>
+    <source type="livem">VTOLAircraftBatteryPackExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex60247416</metadata>
+    <thumbnail>html/VTOLAircraftBatteryPackExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapebattery</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>simscapefluids</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">ImportMotorCADModelInSimulinkSimscapeExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex65684292</metadata>
+    <thumbnail>html/ImportMotorCADModelInSimulinkSimscapeExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+    <product>simscapefluids</product>
+    <product>control</product>
+    <product>mcb</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">BEVSystemLevelExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex65685945</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>autoblks</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">ImproveMotorEfficiencyWithOptimizedControlParametersExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex68803022</metadata>
+    <thumbnail>html/ImproveMotorEfficiencyWithOptimizedControlParametersExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+    <product>slcontrol</product>
+    <product>control</product>
+    <product>optim</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">OptimizeInverterLiquidCoolingSystemExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex71542113</metadata>
+    <thumbnail>html/OptimizeInverterLiquidCoolingSystemExample_08.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscapeelectrical</product>
+    <product>simscapefluids</product>
+    <file component="simscape_shared" timestamp="1768474272">sscv_inverter_liquid_cooling.slx</file>
+    <file component="simscape_shared" timestamp="1654777645">sscv_inverter_liquid_cooling_diode.xml</file>
+    <file component="simscape_shared" timestamp="1654777645">sscv_inverter_liquid_cooling_igbt.xml</file>
+    <file component="simscape_shared" timestamp="1768473073" type="livem">sscv_inverter_liquid_cooling_import.m</file>
+    <file component="simscape_shared" timestamp="1768473073" type="livem">sscv_inverter_liquid_cooling_optimize.m</file>
+    <file component="simscape_shared" timestamp="1654777645">sscv_inverter_liquid_cooling_params.m</file>
+    <file component="simscape_shared" timestamp="1768473073" type="livem">sscv_inverter_liquid_cooling_thermal_ss.m</file>
+    <file component="simscape_shared" timestamp="1683815456">sscv_inverter_liquid_cooling_igbt.rights</file>
+  </demoitem>
+  <demoitem>
+    <source type="m">SimpleMotorArmatureWindingFaultExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/SimpleMotorArmatureWindingFaultExample.html</file>
+    <metadata>ex75927910</metadata>
+    <thumbnail>html/SimpleMotorArmatureWindingFaultExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+    <file component="simscape_shared" open="open" timestamp="1684418796">SimpleMotorArmatureWindingFault.slx</file>
+  </demoitem>
+  <demoitem>
+    <source type="livem">BEVDetailedExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex76407819</metadata>
+    <thumbnail>html/BEVDetailedExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapebattery</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>stateflow</product>
+  </demoitem>
+  <demoitem>
+    <source type="m">TractorEnergyChartingExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/TractorEnergyChartingExample.html</file>
+    <metadata>ex80650061</metadata>
+    <thumbnail>html/TractorEnergyChartingExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simscape</product>
+    <product>simscapefluids</product>
+    <product>sdl</product>
+    <product>simulink</product>
+    <file component="simscape_shared" timestamp="1642962998">sscv_tractor_energy_charting.png</file>
+    <file component="simscape_shared" open="open" timestamp="1642962998">sscv_tractor_energy_charting.slx</file>
+    <file component="simscape_shared" timestamp="1642962998">sscv_tractor_energy_charting_battery.png</file>
+    <file component="simscape_shared" timestamp="1642962998">sscv_tractor_energy_charting_input.m</file>
+    <file component="simscape_shared" timestamp="1642962998">sscv_tractor_energy_charting_plotResponse.m</file>
+    <file component="simscape_shared" timestamp="1642962998">sscv_tractor_energy_charting_plotEnergy.m</file>
+  </demoitem>
+  <demoitem>
+    <source type="livem">DesignAndAnalyzeGridFormingConverterExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex81535512</metadata>
+    <thumbnail>html/DesignAndAnalyzeGridFormingConverterExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+    <product>slcontrol</product>
+    <product>control</product>
+    <product>stateflow</product>
+  </demoitem>
+  <demoitem>
+    <source type="m">HybridSolarPanelExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/HybridSolarPanelExample.html</file>
+    <metadata>ex85395095</metadata>
+    <thumbnail>html/HybridSolarPanelExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+    <product>simscapefluids</product>
+    <file component="simscape_shared" open="open" timestamp="1719225673">sscv_hybrid_solar_panel.slx</file>
+    <file component="simscape_shared" timestamp="1719225673">sscv_hybrid_solar_panel_data.m</file>
+    <file component="simscape_shared" timestamp="1719225673">sscv_hybrid_solar_panel_efficiency.m</file>
+    <file component="simscape_shared" timestamp="1719225673">sscv_hybrid_solar_panel_plot_inputs.m</file>
+    <file component="simscape_shared" timestamp="1719225673">sscv_hybrid_solar_panel_plot_optics.m</file>
+    <file component="simscape_shared" timestamp="1719225673">sscv_hybrid_solar_panel_plot_outputs.m</file>
+  </demoitem>
+  <demoitem>
+    <source type="livem">ModelElectricAircraftInSimscapeExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex87796267</metadata>
+    <thumbnail>html/ModelElectricAircraftInSimscapeExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>simscape</product>
+    <product>sdl</product>
+    <product>simscapefluids</product>
+    <product>simscapeelectrical</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">QuadcopterDroneExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex92748874</metadata>
+    <thumbnail>html/QuadcopterDroneExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>simscapemultibody</product>
+    <product>robotics</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">HEVExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex95878439</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>sdl</product>
+    <product>simscapeelectrical</product>
+    <product>autoblks</product>
+    <product>stateflow</product>
+  </demoitem>
+  <demoitem>
+    <source type="livem">PeakShavingWithBESSExample</source>
+    <type>live</type>
+    <extension>m</extension>
+    <metadata>ex96339148</metadata>
+    <thumbnail>html/PeakShavingWithBESSExample_07.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simscapebattery</product>
+    <product>stateflow</product>
+    <product>simscapeelectrical</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <file component="simscape_shared" timestamp="1697571037">sscv_peak_shaving.slx</file>
+    <file component="simscape_shared" timestamp="1671794587" type="livem">sscv_peak_shaving_BESS_data.m</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_PackLib.slx</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_data.mat</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_lib.slx</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_param.m</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_plot_BESS_VI.m</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_plot_BMS_SoC.m</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_plot_Load_VI.m</file>
+    <file component="simscape_shared" timestamp="1657812005">sscv_peak_shaving_plot_PQ.m</file>
+    <file component="simscape_shared" timestamp="1697551208">SolarPanelValidationIcon.png</file>
+    <dir component="simscape_shared" timestamp="1730292138">+sscv_peak_shaving</dir>
+  </demoitem>
+</demos>
