@@ -53,7 +53,8 @@ MATLAB's quadcopter_package_delivery example structure
 Author-developed files/structure
 ```
 Quadrotor_Thesis/
-   |—QuadcopterDroneExample/
+	|—README.md
+	|—QuadcopterDroneExample/
       |—Quadcopter-Drone-Model-Simscape/
          |—Models/
          |—Thesis/
