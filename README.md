@@ -2,7 +2,9 @@
 
 This work was completed using quadcopter_package_delivery example. Below is the repository tree:  
 ```
-Quadrotor_Thesis/  
+Quadrotor_Thesis/
+	|—examples.xml
+	|—README.md
 	|—QuadcopterDroneExample/  
       |—QuadcopterDroneExample.m  
       |—Quadcopter-Drone-Model-Simscape/  
@@ -29,7 +31,9 @@ Quadrotor_Thesis/
 MATLAB's quadcopter_package_delivery example structure
 ```
   Quadrotor_Thesis/
-   |—QuadcopterDroneExample/
+	|—examples.xml
+	|—README.md
+	|—QuadcopterDroneExample/
       |—QuadcopterDroneExample.m
       |—Quadcopter-Drone-Model-Simscape/
          |—CAD/
